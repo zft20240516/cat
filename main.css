@@ -4,3 +4,22 @@ body {
   font-size: 1.5vw;
   font-family: Inter, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
+
+#Menu {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 999;
+  border: 1px solid blue;
+  border-radius: 1rem;
+  padding: 0;
+  margin: 5rem; 
+  background-color: #99442280;
+  width: 3rem;
+  height: 3rem;
+  overflow: hidden;
+}
+#MenuIcon {
+  width: 3rem;
+  height: 3rem;
+}
