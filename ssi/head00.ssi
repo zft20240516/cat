@@ -1,0 +1,6 @@
+  <head>
+    <base href="/cat/" />
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="icon" href="./favicon-32x32.png" />
+    <link rel="manifest" href="./cat.webmanifest" />
+  </head>
