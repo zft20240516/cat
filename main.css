@@ -1,4 +1,4 @@
-body {
+:root {
   font-size: 1.5vw;
   line-height: 2.5vw;
   font-size: 1.5vw;
@@ -6,6 +6,7 @@ body {
 }
 
 #Menu {
+  font-size: 1em;
   position: fixed;
   bottom: 0;
   right: 0;
@@ -19,10 +20,28 @@ body {
   height: 6em;
   overflow: hidden;
 }
+#MenuContent {
+  font-size: 4em;
+  line-height: 1em;
+  overflow: scroll;
+}
+.MenuItem {
+  margin: 1em;
+  background-color: #11223380;
+  padding: 1em;
+}
 #MenuIcon {
   font-size: 200%;
   margin: 0;
   padding: 0.9em 1.1em;
   width: 3em;
   height: 3em;
+}
+#Menu:focus {
+  background-color: #224499f0;
+  width: 70%;
+  height: 70%;
+}
+#Menu:focus #MenuIcon {
+  display: none;
 }
