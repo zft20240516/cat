@@ -15,13 +15,14 @@ body {
   padding: 0;
   margin: 5em; 
   background-color: #99442280;
-  width: 3em;
-  height: 3em;
+  width: 6em;
+  height: 6em;
   overflow: hidden;
 }
 #MenuIcon {
+  font-size: 200%;
   margin: 0;
-  padding: 0.5em 1em;
+  padding: 0.9em 1.1em;
   width: 3em;
   height: 3em;
 }
