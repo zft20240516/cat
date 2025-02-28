@@ -24,6 +24,7 @@
   font-size: 4em;
   line-height: 1em;
   overflow: scroll;
+  height: 100%;
 }
 .MenuItem {
   margin: 1em;
