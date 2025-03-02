@@ -3,8 +3,10 @@
   zoom: 1.0;
 }
 :root {
-  font-size: 1.5lvw;
+  --font-size: 1.5lvw;
+  font-size: calc(14px + (26 - 14) * ((100vw - 300px) / (1600 - 300)));
   line-height: 2.5lvw;
+  line-height: 1.5em;
   font-family: Inter, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
