@@ -1,0 +1,27 @@
+<html>
+  <head>
+    <script>
+      var Templates = {}
+      async function loadTemplates(url){
+        fetch(url).then((resp) => {
+          resp.text().then((text) => {
+            var TmpDoc = (new DOMParser()).parseFromString()
+          })
+        })
+      }
+      function f001(){
+        fetch("index.html").then((r) => {
+          r.text().then((t) => {
+            var td = (new DOMParser()).parseFromString(t,"text/html");
+            var n = td.body.cloneNode(true);
+            document.body.append(n);
+            console.log(td);
+          })
+        });
+      }
+    </script>
+  </head>
+  <body>
+     <button onclick="f001();">test</button>
+  </body>
+</html>
